@@ -34,8 +34,8 @@ Bike_Rentals.xlsx dataset (732)
 
 ## Model Building
 
-The Random Forest model employed in this project utilizes random split hyperparameters, which create an ensemble of decision trees trained on diverse subsets of the training data. 
+The Random Forest, XGBoost, GradientBoosting and Lasso Regression models are employed in this project utilizes Optuna hyperparameters. 
 
-Evaluation of the model's performance is done using key metrics such as AUC-ROC, a widely-used measure that assesses the classifier's ability to distinguish between classes. The confusion matrix provides a comprehensive breakdown of the model's predictions, enabling a detailed analysis of true positives, true negatives, false positives, and false negatives. Classification reports offer a concise summary of precision, recall, F1 score, and support for each class. 
+The evaluation of the model's performance entails a comprehensive analysis, using metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R^2), Adjusted R-squared, Mean Absolute Percentage Error (MAPE), and Max Error, alongside the consideration of execution time. This evaluation process is further enriched through the examination of learning curves, residuals, and prediction error plots, along with the assessment of train and test scores. 
 
-Additionally, the model provides insights into feature importance, facilitating feature selection, and understanding of the factors driving predictions. For further analysis, a single decision tree can be visualized to comprehend the underlying decision-making process.
+Additionally, the model provides insights into feature importance, facilitating feature selection, and understanding of the factors driving predictions. 
