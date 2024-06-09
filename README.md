@@ -128,7 +128,7 @@ scikit-learn version: 1.3.2
 | Max Error          |     3596.1236 |    3646.1657 |
 
 **Execution Time (s): 0.0055** 
-        <p>*Both the training and testing times are very low (0.0055 seconds), indicating that the model trains and predicts quickly.*
+Both the training and testing times are very low (0.0055 seconds), indicating that the model trains and predicts quickly.
 **MAE (Mean Absolute Error): 562.3931** 
         <p>*The MAE measures the average absolute difference between the predicted and actual values. A lower MAE indicates better performance. The MAE on the test set (562.3914) is slightly higher than on the training set (528.9503), but the difference is not substantial.*
 **RMSE (Root Mean Squared Error): 756.5922**
