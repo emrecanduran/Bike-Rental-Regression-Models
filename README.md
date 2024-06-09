@@ -104,3 +104,11 @@ warnings.filterwarnings("ignore")
 # Set seaborn style
 sns.set_style("whitegrid")
 ```
+### Versions   
+```
+pandas version: 2.1.4
+numpy version: 1.23.5
+matplotlib version: 3.8.0
+seaborn version: 0.13.2
+scikit-learn version: 1.3.2
+```   
