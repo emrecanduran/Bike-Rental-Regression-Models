@@ -183,3 +183,43 @@ Max Error simply represents the maximum difference between predicted and actual 
 *Significant Features*:
 Various months, weekdays, wind speed, humidity, and holiday categories also show notable impacts on the target variable.
 <br>
+
+### Learning Curve:
+
+<p align="center">
+  <img width="500" height="350" src="figures/Learning-Curve.png">
+</p>
+
+The Lasso model's performance on both training and cross-validation data can be seen in the learning curve plot. The model performs better on the training set of data at first, but after an unusual start, the cross-validation scores quickly improve.  The two curves eventually converge at a specific point, signifying consistent performance on unseen data.  This convergence shows that the model generalizes well without significant underfitting or overfitting. 
+<br>
+
+### ROC-AUC:
+
+<p align="center">
+  <img width="500" height="350" src="figures/ROC-AUC.png">
+</p>
+
+ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power. The micro-average ROC AUC confirms that the model performs well on average across all classes.
+<br>
+
+### Precision-Recall Curve:
+
+<p align="center">
+  <img width="500" height="350" src="figures/Precision-Recall-Curve.png">
+</p>
+
+An average precision (AP) of 0.55 indicates moderate performance in balancing precision and recall across all thresholds.
+<br>
+
+### Confusion Matrix:
+
+<p align="center">
+  <img width="500" height="350" src="figures/Confusion-Matrix.png">
+</p>
+
+The Logistic Regression model achieved the highest true positive rates (11.9%) and true negative rates (65.70%). Given the importance of recall (TPR) for business needs, this model performs well in identifying true positives.
+<br>
+
+### Overall Assessment
+
+Tree-based models did not generalize well, showing high differences between train and test scores. The Logistic Regression model demonstrates strong predictive performance with low differences between train and test results, indicating good generalization. It achieved the best results with the simplest model and fewer features. 
