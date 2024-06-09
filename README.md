@@ -24,3 +24,17 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 *    **Deployment**: plan deployment; plan monitoring and maintenance; produce final report; review project (deployment was not required for this project)
 
 [Reference](https://github.com/mbenetti/CRISP-DM-Rossmann/blob/master/README.md)
+
+### **Overview**
+<p>The customer whishes to build a model to predict everyday at 15h00 the total number of bikes they will rent the following day. This will allow them not only to better allocate staff resources, but also to define their daily marketing budget in social media which is their principal form of advertisement.</p>
+
+### Model building
+
+<p>To achieve the objective, it is followed a systematic approach, CRISP-DM, that involves several stages. It is started by preparing the data, cleaning, and organizing it for analysis. Next, perform exploratory data analysis (EDA) to gain insights into the dataset and identify any patterns or trends. Once I have a thorough understanding of the data, it is proceed to train and evaluate predictive models using 4 different machine learning techniques with their best parameters such as: <p>
+
+- Random Forest Regressor
+- XGBoost 
+- GradientBoosting 
+- Lasso Regression
+
+I tried to explore various models from different families, including bagging techniques like RandomForestRegressor, boosting methods such as XGBoost and GradientBoosting, as well as Lasso Regression.
