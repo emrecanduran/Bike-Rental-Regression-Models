@@ -112,3 +112,7 @@ matplotlib version: 3.8.0
 seaborn version: 0.13.2
 scikit-learn version: 1.3.2
 ```   
+
+### Results
+
+#### Train and test results:
