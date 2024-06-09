@@ -144,3 +144,42 @@ MAPE measures the percentage difference between the predicted and actual values.
 
 **Max Error**:
 Max Error simply represents the maximum difference between predicted and actual values. Lower values are desirable. Both the training and testing max errors are relatively high, indicating that there are instances where the model performs poorly.
+<br>
+
+### Feature Importance:
+
+|   Feature      |   Coefficient  |   AbsCoefficient  |
+|----------------|----------------|-------------------|
+| season_Winter  |   -2028.166009 |   2028.166009     |
+| month_Nov      |   -1800.578534 |   1800.578534     |
+| season_Spring  |   -1102.392630 |   1102.392630     |
+| month_Dec      |   -819.433863  |   819.433863      |
+| day            |    794.531195  |   794.531195      |
+| year_2011.0    |   -669.571452  |   669.571452      |
+| month_Oct      |    610.614878  |   610.614878      |
+| month_Apr      |   -567.694729  |   567.694729      |
+| month_May      |   -505.641698  |   505.641698      |
+| month_Jul      |   -495.989634  |   495.989634      |
+| year_2012.0    |   -475.406866  |   475.406866      |
+| season_Fall    |    424.937125  |   424.937125      |
+| month_Mar      |    413.235976  |   413.235976      |
+| holiday_yes    |    337.438154  |   337.438154      |
+| month_Jun      |    312.715197  |   312.715197      |
+| holiday_no     |   -288.708558  |   288.708558      |
+| month_Aug      |   -250.104412  |   250.104412      |
+| month_Jan      |   -213.334701  |   213.334701      |
+| month_Feb      |    194.243545  |   194.243545      |
+| month_Sep      |   -107.207044  |   107.207044      |
+| season_Summer  |    -72.135847  |    72.135847      |
+<br>
+
+*Top 5 Features*:
+- Year 2011
+- Weather Condition: Light snow & Rain
+- Season: Spring
+- Temperature Category: Cold
+- Temperature Category: Hot
+
+*Significant Features*:
+Various months, weekdays, wind speed, humidity, and holiday categories also show notable impacts on the target variable.
+<br>
