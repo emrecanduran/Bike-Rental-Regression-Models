@@ -116,3 +116,13 @@ scikit-learn version: 1.3.2
 ### Results
 
 #### Train and test results:
+
+| Metric             |   Train Score |   Test Score |
+|--------------------|---------------|--------------|
+| Execution Time (s) |        0.0055 |       0.0055 |
+| MAE                |      528.9499 |     562.3931 |
+| RMSE               |      739.7028 |     756.5922 |
+| R^2                |        0.8523 |       0.8502 |
+| Adjusted R^2       |        0.8467 |       0.8248 |
+| MAPE               |       44.9667 |      18.8200 |
+| Max Error          |     3596.1236 |    3646.1657 |
