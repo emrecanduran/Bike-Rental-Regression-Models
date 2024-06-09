@@ -126,6 +126,7 @@ scikit-learn version: 1.3.2
 | Adjusted R^2       |        0.8467 |       0.8248 |
 | MAPE               |       44.9667 |      18.8200 |
 | Max Error          |     3596.1236 |    3646.1657 |
+<br>
 
 **Execution Time (s)**: Both the training and testing times are very low (0.0055 seconds), indicating that the model trains and predicts quickly.
 
