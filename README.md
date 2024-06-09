@@ -61,3 +61,46 @@ I tried to explore various models from different families, including bagging tec
 | casual      | count of casual users                                                                                                                 |
 | registered  | count of registered users                                                                                                             |
 | cnt         | count of total rental bikes including both casual and registered          
+
+### Imports
+This project has following libraries:
+```python
+
+# Import necessary libraries
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import category_encoders as ce
+import re
+import math
+import calendar
+import graphviz
+import warnings
+from tabulate import tabulate
+import time
+import optuna
+import pickle
+
+# Machine Learning Libraries
+from sklearn import tree
+from sklearn.linear_model import Lasso
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, StackingRegressor
+from xgboost import XGBRegressor
+from sklearn.model_selection import train_test_split, cross_val_score, KFold
+from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, mean_absolute_percentage_error, max_error, make_scorer
+from yellowbrick.model_selection import RFECV, LearningCurve
+from yellowbrick.regressor import PredictionError, ResidualsPlot
+import xgboost as xgb
+
+# Set random state and cross-validation folds
+random_state = 2024
+n_splits = 10
+cv = 10
+
+# Warnings handling
+warnings.filterwarnings("ignore")
+
+# Set seaborn style
+sns.set_style("whitegrid")
+```
