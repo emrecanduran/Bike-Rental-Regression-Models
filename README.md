@@ -187,25 +187,16 @@ Various months, weekdays, wind speed, humidity, and holiday categories also show
 ### Learning Curve:
 
 <p align="center">
-  <img width="500" height="350" src="figures/Learning-Curve.png">
+  <img width="500" height="350" src="images/Learning-Curve.png">
 </p>
 
 The Lasso model's performance on both training and cross-validation data can be seen in the learning curve plot. The model performs better on the training set of data at first, but after an unusual start, the cross-validation scores quickly improve.  The two curves eventually converge at a specific point, signifying consistent performance on unseen data.  This convergence shows that the model generalizes well without significant underfitting or overfitting. 
 <br>
 
-### ROC-AUC:
+### Residuals:
 
 <p align="center">
-  <img width="500" height="350" src="figures/ROC-AUC.png">
-</p>
-
-ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power. The micro-average ROC AUC confirms that the model performs well on average across all classes.
-<br>
-
-### Precision-Recall Curve:
-
-<p align="center">
-  <img width="500" height="350" src="figures/Precision-Recall-Curve.png">
+  <img width="500" height="350" src="images/Residuals.png">
 </p>
 
 An average precision (AP) of 0.55 indicates moderate performance in balancing precision and recall across all thresholds.
