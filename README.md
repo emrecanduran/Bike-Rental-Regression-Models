@@ -127,17 +127,19 @@ scikit-learn version: 1.3.2
 | MAPE               |       44.9667 |      18.8200 |
 | Max Error          |     3596.1236 |    3646.1657 |
 
-**Execution Time (s): 0.0055** 
-Both the training and testing times are very low (0.0055 seconds), indicating that the model trains and predicts quickly.
-**MAE (Mean Absolute Error): 562.3931** 
-        <p>*The MAE measures the average absolute difference between the predicted and actual values. A lower MAE indicates better performance. The MAE on the test set (562.3914) is slightly higher than on the training set (528.9503), but the difference is not substantial.*
-**RMSE (Root Mean Squared Error): 756.5922**
-        <p>*RMSE measures the average squared difference between the predicted and actual values, taking the square root to bring the metric back to the original scale. Again, lower values are better. Like MAE, the RMSE on the test set (756.5922) is slightly higher than on the training set (739.7028).*
-**R^2 (Coefficient of Determination): 0.8502**
-        <p>*R-squared represents the proportion of variance in the dependent variable that is predictable from the independent variables. It ranges from 0 to 1, with higher values indicating better fit. Both the training (0.8523) and testing (0.8502) R-squared values indicate that the model explains a good amount of the variance in the data.*
-**Adjusted R^2: 0.8248**
-        <p>*Adjusted R-squared is similar to R-squared, but it adjusts for the number of predictors in the model. It penalizes the addition of unnecessary predictors that do not improve the model significantly. The testing adjusted R-squared (0.8248) is lower than the training adjusted R-squared (0.8467), indicating a potential overfitting issue or that some predictors in the model may not be contributing meaningfully to the prediction.*
-**MAPE (Mean Absolute Percentage Error): 18.82**
-        <p>*MAPE measures the percentage difference between the predicted and actual values. Lower values are better. It's important to note that MAPE is sensitive to outliers. In this case, the MAPE on the test set (18.8199%) is substantially lower than on the training set (44.9667%), which could indicate that the model performs better on the test data in terms of relative error.*     
-**Max Error: 3646.2080**
-        <p>*Max Error simply represents the maximum difference between predicted and actual values. Lower values are desirable. Both the training and testing max errors are relatively high, indicating that there are instances where the model performs poorly.*
+**Execution Time (s)**: Both the training and testing times are very low (0.0055 seconds), indicating that the model trains and predicts quickly.
+
+**MAE (Mean Absolute Error)**: The MAE measures the average absolute difference between the predicted and actual values. A lower MAE indicates better performance. The MAE on the test set (562.3914) is slightly higher than on the training set (528.9503), but the difference is not substantial.
+
+**RMSE (Root Mean Squared Error)**: RMSE measures the average squared difference between the predicted and actual values, taking the square root to bring the metric back to the original scale. Again, lower values are better. Like MAE, the RMSE on the test set (756.5922) is slightly higher than on the training set (739.7028).
+
+**R^2 (Coefficient of Determination)**: R-squared represents the proportion of variance in the dependent variable that is predictable from the independent variables. It ranges from 0 to 1, with higher values indicating better fit. Both the training (0.8523) and testing (0.8502) R-squared values indicate that the model explains a good amount of the variance in the data.
+
+**Adjusted R^2**: 
+Adjusted R-squared is similar to R-squared, but it adjusts for the number of predictors in the model. It penalizes the addition of unnecessary predictors that do not improve the model significantly. The testing adjusted R-squared (0.8248) is lower than the training adjusted R-squared (0.8467), indicating a potential overfitting issue or that some predictors in the model may not be contributing meaningfully to the prediction.
+
+**MAPE (Mean Absolute Percentage Error)**: 
+MAPE measures the percentage difference between the predicted and actual values. Lower values are better. It's important to note that MAPE is sensitive to outliers. In this case, the MAPE on the test set (18.8199%) is substantially lower than on the training set (44.9667%), which could indicate that the model performs better on the test data in terms of relative error.   
+
+**Max Error**:
+Max Error simply represents the maximum difference between predicted and actual values. Lower values are desirable. Both the training and testing max errors are relatively high, indicating that there are instances where the model performs poorly.
