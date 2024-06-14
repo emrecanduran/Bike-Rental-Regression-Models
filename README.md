@@ -196,7 +196,7 @@ The Lasso model's performance on both training and cross-validation data can be 
 ### Prediction Error:
 
 <p align="center">
-  <img width="500" height="350" src="images/Prediction-Error.png">
+  <img width="500" height="400" src="images/Prediction-Error.png">
 </p>
 
 The prediction error plot with an 𝑅2 score of 0.85 should show that the predicted values closely follow the actual values, with minimal and randomly distributed residuals, indicating a strong and reliable regression model.
