@@ -193,6 +193,14 @@ Various months, weekdays, wind speed, humidity, and holiday categories also show
 The Lasso model's performance on both training and cross-validation data can be seen in the learning curve plot. The model performs better on the training set of data at first, but after an unusual start, the cross-validation scores quickly improve.  The two curves eventually converge at a specific point, signifying consistent performance on unseen data. This convergence shows that the model generalizes well without significant underfitting or overfitting. 
 <br>
 
+### Prediction Error:
+
+<p align="center">
+  <img width="500" height="350" src="images/images/Prediction-Error.png">
+</p>
+
+The prediction error plot with an 𝑅2 score of 0.85 should show that the predicted values closely follow the actual values, with minimal and randomly distributed residuals, indicating a strong and reliable regression model.
+
 ### Residuals:
 
 <p align="center">
